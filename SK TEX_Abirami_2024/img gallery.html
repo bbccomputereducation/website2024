@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		.gallery{
+			padding: 5px;
+			max-width: 1100px;
+			margin: 0 auto;
+			background: /*#8C0059*/ #f2f2f2;
+			display: grid;
+			grid-gap: 5px;
+			grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+			grid-auto-rows: 250px;
+			grid-auto-flow: dense;
+		}
+		.v-stretch{
+			grid-row: span 2;
+		}
+		.h-stretch{
+			grid-column: span 2;
+		}
+		.big-stretch{
+			grid-row: span 2;
+			grid-column: span 2;
+		}
+		.gallery div img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.h1{
+				color: #000;
+				font-weight: 500;
+				font-size: 50px;
+				text-decoration: none;
+				font-family: Algerian;
+			}
+		@media(max-width: 560px){
+			.v-stretch{
+				grid-row: span 1;
+			}
+			.h-stretch{
+				grid-column: span 1;
+			}
+			.big-stretch{
+				grid-row: span 1;
+				grid-column: span 1;
+			}
+			
+		}
+	</style>
+</head>
+<body>
+		<header>
+		<a href="#" class="logo">SK TEX <span>.</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#about us" onclick="toggleMenu();">About Us</a></li>
+			<li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+			<li><a href="#speciality" onclick="toggleMenu();">Speciality</a></li>
+			<li><a href="#contact us" onclick="toggleMenu();">Register</a></li>
+			<li><a href="#location" onclick="toggleMenu();">Contact Us</a></li>
+		</ul>
+	</header>
+	<!-- finish header -->
+	<h1 align="center" class="h1"> SK <img src="image/logo11.png"> TEX </h1><br>	
+
+	<h1 align="center">Towels With Plain Color And designed Border Samples </h1>
+	<div class="gallery">
+		<div class="h-stretch">
+			<img src="image/pcdb1.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pcdb3.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pcdb8.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/pcdb9.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pcdb5.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pcdb4.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pcdb7.jpg">
+		</div>
+	</div>
+	<br>
+
+	<h1 align="center">Towels of Plain White And designed Border Samples</h1>
+	<div class="gallery">
+		<div class="v-stretch">
+			<img src="image/pwcb3.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pwcb8.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pwcb1.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pwcb5.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pwcb6.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pwcb2.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pwcb7.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/pwcb4.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pwcb9.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/pwcb1.jpg">
+		</div>  <!-- additional -->
+	</div>
+	<br>
+
+	<h1 align="center">The Towels Having An Pure White Simple Border Samples</h1>
+	<div class="gallery">
+		<div class="h-stretch">
+			<img src="image/wlb.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/wlb1.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/wlb2.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/wlb8.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/wclb2.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/wlb6.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/wlb7.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/wlb5.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/wlb4.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/wlb3.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/wclb1.jpg">
+		</div>
+	</div>
+	<br>
+
+	<h1 align="center">Towel Samples Of Color Checked With Border</h1>
+	<div class="gallery">
+		<div class="v-stretch">
+			<img src="image/ccwb1.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/ccwb2.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/ccwb5.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/ccwb3.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/ccwb4.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/ccwb6.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/ccwb7.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/ccwb1.jpg">
+		</div> <!-- additional -->
+	</div>
+	<br>
+
+
+	<h1 align="center">The Towels With Simple Checked Linear Borders</h1>
+	<div class="gallery">
+		<div>
+			<img src="image/cc1.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc3.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc2.jpg">
+		</div>
+		<div>
+			<img src="image/cc37.jpg">
+		</div>
+		<div>
+			<img src="image/cc40.jpg"> 
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc4.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc41.jpg">
+		</div>
+		<div>
+			<img src="image/cc42.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc6.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc10.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc5.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc8.jpg">
+		</div>
+		<div>
+			<img src="image/cc50.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc7.jpg">
+		</div>
+		<div>
+			<img src="image/cc51.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc52.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc11.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc12.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc13.jpg">
+		</div>
+		<div>
+			<img src="image/cc43.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc9.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc14.jpg">
+		</div>
+		<div>
+			<img src="image/cc44.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc24.jpg"> 
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc18.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc48.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc15.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc16.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc19.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc20.jpg">
+		</div>
+		<div>
+			<img src="image/cc62.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc17.jpg">
+		</div>
+		<div>
+			<img src="image/cc63.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc51.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc21.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc22.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc23.jpg">
+		</div>
+		<div>
+			<img src="image/cc47.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc28.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc25.jpg">
+		</div>
+		<div>
+			<img src="image/cc49.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc29.jpg"> 
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc32.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc66.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc26.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc27.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc56.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc70.jpg">
+		</div>
+		<div>
+			<img src="image/cc67.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc30.jpg">
+		</div>
+		<div>
+			<img src="image/cc68.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc71.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc31.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc33.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc35.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc46.jpg">
+		</div>
+		<div class="v-stretch">
+			<img src="image/cc72.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc45.jpg">
+		</div>
+		<div>
+			<img src="image/cc53.jpg">
+		</div>
+		<div>
+			<img src="image/cc36.jpg">
+		</div>
+		<div>
+			<img src="image/cc60.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc59.jpg">
+		</div>
+		<div>
+			<img src="image/cc36.jpg">
+		</div>
+		<div>
+			<img src="image/cc58.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc55.jpg">
+		</div>
+		<div>
+			<img src="image/cc57.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc38.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc61.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc64.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc69.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc65.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc73.jpg">
+		</div>
+		<div class="big-stretch">
+			<img src="image/cc39.jpg">
+		</div>
+		<div class="h-stretch">
+			<img src="image/cc54.jpg">
+		</div>
+	</div>
+	<br>
+	<div class="title">
+		<a href="index.html" class="btn">GO TO HOME</a>		
+	</div>
+<br><br>
+<div class="copyrightText">
+		<p>Copyright 2023 <a href="#"> SK Tex</a>.All Right Reserved</p>
+	</div>
+	<br><br>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll' , function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky",window.scrollY > 0);
+		});
+
+		function toggleMenu(){
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
