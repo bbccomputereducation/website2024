@@ -1,0 +1,56 @@
+		.h4{
+			/*font-family: Comic Sans MS;*/
+			font-size: 30px;
+			color: #e80d4c;
+			padding-bottom:20px;
+			padding-top:30px;
+		}
+		.h44{
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			color: #e80d4c;
+			padding-bottom:20px;
+			padding-top:30px;
+		}
+		.h22{
+			font-family:Adobe Caslon Pro;
+			font-size: 35px;
+			color: #e80d4c;
+			padding-bottom:20px;
+			padding-top:30px;
+		}
+		.h2{
+			font-family:Adobe Caslon Pro;
+			font-size:25px;
+			color: #00000f;
+			padding-bottom:20px;
+			padding-top:30px;
+		}
+		.h6{
+			/*font-family:Adobe Caslon Pro;*/
+			font-size:25px;
+			color: #00000f;
+			padding-bottom:20px;
+			padding-top:30px;
+		}
+		.bg1{
+			background-color: #e8b1b4;
+			/*border-radius: 15px;*/
+		}
+		.bg2{
+			background-color: #F7E6CA;
+			/*border-radius: 15px;*/
+		}
+		.bg3{
+			/*border-radius: 15px;*/
+			margin-top: 5px;
+			margin-bottom: 10px;
+			/*background-color: #937474;*/
+		}
+		.copy{
+			color: white;
+		}
+		.slider{
+			padding-top:5px;
+			padding-bottom:5px; 
+		}
